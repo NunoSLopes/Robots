@@ -5,6 +5,7 @@ public class Arena {
     private Elements arena[][];
     private Player player;
     private Robots robot;
+    private Model model;
 
 
     public void arena(int limitRight, int limitDown) {
@@ -16,28 +17,43 @@ public class Arena {
     }
 
     public void movePlayer (int iStart, int iEnd, int jStart, int jEnd, int changePosX, int changePosY){
-        arena[player.getX()][player.getY()] = arena[player.getX()+changePosX][player.getY() + changePosY];
-        arena[player.getX()][player.getY()] = null;
+        arena[player.posX][player.posY] = arena[player.posX+changePosX][player.posY + changePosY];
+        arena[player.posX][player.posY] = null;
         player.posX += changePosX;
         player.posY += changePosY;
-        moveRobots(iStart, iEnd, jStart, jEnd, changePosX, changePosY);
+        moveRobots();
     }
 
-    private void moveRobots(int iStart, int iEnd, int jStart, int jEnd, int changePosX, int changePosY) {
-
-        for (int i = iStart ;;){
-            if (( iStart < iEnd && i < iEnd) | (iEnd <= iStart && i >= iEnd)){
-                for (int j = jStart; j<jEnd; ++j){
-                    if(!isEmpty(i,j) && arena[i + changePosX][j + changePosY] instanceof Robots){
-                        clashOfElements(i,j,i+changePosX,j+changePosY);
-                    }else if (!isEmpty(i,j) && arena[i + changePosX][j + changePosY] instanceof Player){
-                        gameOver();
-                    }else if (!isEmpty(i,j) && arena[i + changePosX][j + changePosY] instanceof JunkPile){
-                        //todo
-                    }
+    private void moveRobots() {
+        int robotNewX= 0 , robotNewY = 0;
+        for ( int i = 0 ; i < arena.length; ++i){
+            for ( int j = 0 ; j < arena[i].length; ++j){
+                if ( arena[i][j] instanceof Robots){
+                    if( robot.posX > player.posX)
+                        robotNewX = robot.posX --;
+                    else if ( robot.posX < player.posX)
+                        robotNewX = robot.posX ++;
+                    if (robot.posY > player.posY)
+                        robotNewY = robot.posY --;
+                    else if (robot.posY < player.posY)
+                        robotNewY = robot.posY ++;
+                }
+                if ( arena[robotNewX][robotNewY] instanceof JunkPile){
+                    clashOfElements(robotNewX,robotNewY);
+                    deleteElem(robot.posX,robotNewY);
+                }else if( arena[robotNewX][robotNewY] instanceof Player){
+                    deleteElem(robot.posX,robot.posY);
+                    gameOver();
+                }else if(arena[robotNewX][robotNewY] instanceof Robots){
+                    clashOfElements(robotNewX,robotNewY);
+                    deleteElem(robot.posX,robot.posY);
+                }else if(arena[robotNewX][robotNewY] == null) {
+                    robot.posY = robotNewY;
+                    robot.posX = robotNewX;
                 }
             }
         }
+
     }
 
     private void gameOver() {
@@ -48,8 +64,34 @@ public class Arena {
 
     public boolean isEmpty(int posX, int posY){return arena[posX][posY] == null ? true : false;}
 
-    public void clashOfElements(int i, int j, int changePosX, int changePosY){
-        arena[i+changePosX][j+changePosY] = new JunkPile(i + changePosX,j + changePosY);
-        arena[i][j] = null;
+    public void clashOfElements(int changePosX, int changePosY){
+        arena[changePosX][changePosY] = new JunkPile(changePosX,changePosY);
+    }
+
+    public void SafeTeleport(){
+        int newPosX = 0;
+        int newPosY = 0;
+        do{
+            newPosX = RandomPositionX();
+            newPosY = RandomPositionY();
+
+        }while (arena[newPosX][newPosY] != null);
+
+        deleteElem(player.posX,player.posY);
+
+        addElement(newPosX,newPosY, new Player(newPosX,newPosY));
+
+    }
+
+    public void DangerousTeleport(){
+
+    }
+
+    public int RandomPositionX(){
+        return (int)(Math.random()*model.limitRight);
+    }
+
+    public int RandomPositionY(){
+        return (int)(Math.random()*model.limitRight);
     }
 }
