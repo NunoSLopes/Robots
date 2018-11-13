@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aed9b85-7f59-44cf-874d-2ed98a20bac3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Robots.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Arena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/JunkPile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Robots.java" afterDir="false" />
+    <list default="true" id="ab031814-16fa-4106-97be-7f7fe8416058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/isel/poo/robots/DirectionKeyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robots.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Robots.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,100 +17,148 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-974353903">
+    <session id="1380599832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="11" />
+          <entry key="class" value="4" />
+          <entry key="html" value="2" />
+          <entry key="java" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="11" />
+          <entry key="CLASS" value="4" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1332" />
+          <entry key="java" value="11915" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1332" />
+          <entry key="JAVA" value="11915" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+    <session id="-1471883865">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.types.edit" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+    <session id="-974353903">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="218" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="218" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Elements.java">
+        <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/DirectionKeyMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/Robots.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Arena.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Robots.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/JunkPile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Robots.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -121,23 +166,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Robots.java" />
-        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Arena.java" />
-        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Player.java" />
-        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/JunkPile.java" />
-        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Model.java" />
-        <option value="$PROJECT_DIR$/../Prof_Robots/src/edu/isel/adeetc/poo/Model/Robots.java" />
+        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Arena.java" />
+        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Actor.java" />
+        <option value="$PROJECT_DIR$/src/edu/isel/adeetc/poo/Element.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/Element.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/Arena.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/ElementProvider.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/Element.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/RandomArenaFactory.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/ElementFactory.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/ParticipantsProvider.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/elements/Element.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/elements/JunkPile.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/Position.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/view/Tile.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/Main.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/console/tile/Tile.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/view/CellTile.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/Arena.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/elements/Player.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/providers/RandomPositionProvider.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/Direction.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/elements/Actor.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/model/elements/Robot.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/DirectionKeyMap.java" />
+        <option value="$PROJECT_DIR$/src/isel/poo/robots/Robots.java" />
       </list>
     </option>
   </component>
@@ -148,7 +213,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -159,6 +224,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +235,11 @@
             <path>
               <item name="Robots" type="b2602c69:ProjectViewProjectNode" />
               <item name="Robots" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Robots" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,37 +253,30 @@
               <item name="Robots" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="poo" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Robots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Robots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="ConsolePG" type="70bed36:NamedLibraryElementNode" />
+              <item name="robots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539629416328" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConsolePG.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542136231769" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\POO\Prof_Robots\src\edu\isel\adeetc\poo\Model" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="isel.poo.robots.model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="isel.poo.robots.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,36 +291,57 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="isel.poo.robots.Main" />
+      <module name="robots" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8aed9b85-7f59-44cf-874d-2ed98a20bac3" name="Default Changelist" comment="" />
-      <created>1539182364775</created>
+      <changelist id="ab031814-16fa-4106-97be-7f7fe8416058" name="Default Changelist" comment="" />
+      <created>1539107236086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539182364775</updated>
-      <workItem from="1539182368059" duration="219000" />
-      <workItem from="1539197553249" duration="988000" />
-      <workItem from="1539354657866" duration="4795000" />
-      <workItem from="1539367923984" duration="221000" />
-      <workItem from="1539625139519" duration="2846000" />
-      <workItem from="1539712419031" duration="9000" />
-      <workItem from="1539716032981" duration="1205000" />
-      <workItem from="1539884920470" duration="6000" />
-      <workItem from="1540418207112" duration="21000" />
+      <updated>1539107236086</updated>
+      <workItem from="1541445508081" duration="865000" />
+      <workItem from="1541529908697" duration="617000" />
+      <workItem from="1541540361471" duration="8000" />
+      <workItem from="1542135064016" duration="609000" />
+      <workItem from="1542136187240" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10310000" />
+    <option name="totallyTimeSpent" value="2714000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,16 +349,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32624114" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3721174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32809225" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,8 +367,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,153 +377,64 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../ConsolePG.jar!/isel/leic/pg/Console.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6779">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../ConsolePG.jar!/isel/leic/pg/Location.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../ConsolePG.jar!/isel/leic/pg/MouseEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/ParticipantsProvider.java" />
-    <entry file="file://$PROJECT_DIR$/../Prof_Robots/src/edu/isel/adeetc/poo/Model/Elements.java" />
-    <entry file="file://$PROJECT_DIR$/../Prof_Robots/src/edu/isel/adeetc/poo/Model/JunkPile.java" />
-    <entry file="file://$PROJECT_DIR$/../Prof_Robots/src/edu/isel/adeetc/poo/Model/Player.java" />
-    <entry file="file://$PROJECT_DIR$/../Prof_Robots/src/edu/isel/adeetc/poo/Model/Robots.java" />
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Elements.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Actor.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/RandomArenaFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/ElementFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/console/Window.java" />
+    <entry file="jar://$PROJECT_DIR$/libs/ConsolePG.jar!/docs/index.html" />
+    <entry file="jar://$PROJECT_DIR$/libs/ConsolePG.jar!/docs/isel/leic/pg/Console.html" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://$PROJECT_DIR$/libs/ConsolePG.jar!/isel/leic/pg/Console.class" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/console/ParentView.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/elements/JunkPile.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/console/tile/Tile.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/console/View.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/console/tile/TilePanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/elements/Element.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/view/CellTile.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/Arena.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/ParticipantsProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/elements/Player.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/providers/RandomPositionProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/elements/Robot.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/model/elements/Actor.java" />
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/JunkPile.java">
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/DirectionKeyMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/isel/poo/robots/Robots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="436">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Robots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Robots.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/isel/adeetc/poo/Model/Arena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Robots</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>ConsolePG</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
